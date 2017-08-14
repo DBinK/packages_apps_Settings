@@ -88,9 +88,9 @@
     <string name="navigationbar_settings_summary">自定义导航栏样式和行为</string>
     <string name="navbar_general_title">高级</string>
     <string name="navigation_bar_left_title">左手模式</string>
-    <string name="navigation_bar_left_summary">以横向模式将导航栏放在屏幕的左侧</string>
+    <string name="navigation_bar_left_summary">设备处于横向模式时将导航栏放在屏幕的左侧</string>
     <string name="info_pref_note_title">注意</string>
-    <string name="smartbar_interface">SmartBar</string>
+    <string name="smartbar_interface">导航栏</string>
     <string name="icon_pack_picker_dialog_title">图标包</string>
     <string name="invalid_icon_from_uri">无法从内容提供商加载图片</string>
     <string name="picker_activities">活动</string>
@@ -99,7 +99,7 @@
     <string name="profile_applist_title">应用</string>
     <string name="default_string">默认</string>
     <string name="reset">重设</string>
-    <string name="summary_navbar">Smartbar、Fling和Pulse可视化</string>
+    <string name="summary_navbar">Smartbar栏、Fling栏和Pulse音乐可视化</string>
 
     <!-- Actions dialog and default task values set in ActionPreference xml-->
     <string name="choose_action_title">选择活动</string>
@@ -111,7 +111,7 @@
     <string name="fling_settings">Fling设置</string>
     <string name="fling_interface">Fling</string>
     <string name="fling_enable_title">启用Fling</string>
-    <string name="fling_back_home_policy">返回和首页需要始终被设置。 要更改后退或首页的手势，请先设置其所需的手势</string>
+    <string name="fling_back_home_policy">返回和主页需要始终被设置。 要更改返回或主页的手势，请先设置其所需的手势</string>
     <string name="fling_split_bar_policy">仅设置右或左操作时，操作适用于完整导航栏</string>
     <string name="fling_def_summary">未指定动作</string>
     <string name="fling_swipe_actions">滑动手势</string>
@@ -128,8 +128,8 @@
     <string name="fling_single_left_tap">单击左侧</string>
     <string name="fling_double_left_tap">双击左侧</string>
     <string name="fling_long_left_press">长按左侧</string>
-    <string name="long_swipe_portrait_title">图像</string>
-    <string name="long_swipe_landscape_title">风景</string>
+    <string name="long_swipe_portrait_title">竖屏长滑</string>
+    <string name="long_swipe_landscape_title">横屏长滑</string>
     <string name="portrait_right_swipe_title">纵向向右滑动</string>
     <string name="portrait_left_swipe_title">纵向向左滑动</string>
     <string name="landscape_right_swipe_title">横向右滑动</string>
@@ -147,15 +147,16 @@
     <string name="fling_trails_color_title">轨迹颜色</string>
     <string name="fling_trails_width_title">轨迹宽度</string>
     <string name="fling_appearance">外观</string>
-    <string name="fling_show_logo_title">显示Fling标志</string>
-    <string name="fling_animate_logo_title">动画标志</string>
-    <string name="fling_animate_logo_summary">触摸时的标志动画</string>
-    <string name="fling_logo_color">标志颜色</string>
-    <string name="fling_logo_custom_logo_pick_title">自定义标志图标</string>
-    <string name="fling_logo_custom_logo_image_pick_title">自定义标志图片</string>
-    <string name="fling_logo_custom_logo_reset_title">重置标志图标</string>
-    <string name="fling_show_ripple_title">显示波纹</string>
-    <string name="fling_show_ripple_summary">触摸时的波纹</string>
+    <string name="fling_show_logo_title">显示的Logo标志</string>
+
+    <string name="fling_animate_logo_title">Logo动画</string>
+    <string name="fling_animate_logo_summary">触摸时的Logo动画</string>
+    <string name="fling_logo_color">Logo颜色</string>
+    <string name="fling_logo_custom_logo_pick_title">自定义Logo（图标包）</string>
+    <string name="fling_logo_custom_logo_image_pick_title">自定义Logo（图片）</string>
+    <string name="fling_logo_custom_logo_reset_title">重置Logo图标</string>
+    <string name="fling_show_ripple_title">显示波纹动画</string>
+    <string name="fling_show_ripple_summary">触摸时的波纹动画</string>
     <string name="fling_ripple_color">波纹颜色</string>
     <string name="fling_longpress_timeout_label_left">减少延迟</string>
     <string name="fling_longpress_timeout_label_right">更多延迟</string>
